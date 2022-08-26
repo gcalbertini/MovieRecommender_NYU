@@ -1,0 +1,83 @@
+Producing 100 recommendations for 100 users by brute force
+
+Queries per second = 13.804650638634396
+Average recall over all queries = 1.0
+
+------------------------------------------------------------------
+
+Producing 100 recommendations for 100 users with Annoy fast search method (inner product distance)
+
+Annoy configuration: n_trees = 100, search_k = 100
+Time to build index: 2.0317819118499756 seconds
+Queries per second = 18043.121397229632
+Average recall over all queries = 0.002
+
+Annoy configuration: n_trees = 100, search_k = 1000
+Time to build index: 2.0317819118499756 seconds
+Queries per second = 6598.033632745521
+Average recall over all queries = 0.0159
+
+Annoy configuration: n_trees = 100, search_k = 10000
+Time to build index: 2.0317819118499756 seconds
+Queries per second = 841.9068188706741
+Average recall over all queries = 0.1962
+
+Annoy configuration: n_trees = 100, search_k = 50000
+Time to build index: 2.0317819118499756 seconds
+Queries per second = 232.36922422337295
+Average recall over all queries = 0.6349
+
+Annoy configuration: n_trees = 100, search_k = 100000
+Time to build index: 2.0317819118499756 seconds
+Queries per second = 116.02526367969833
+Average recall over all queries = 0.865
+
+Annoy configuration: n_trees = 500, search_k = 100
+Time to build index: 11.044328927993774 seconds
+Queries per second = 4504.821334593532
+Average recall over all queries = 0.0023
+
+Annoy configuration: n_trees = 500, search_k = 1000
+Time to build index: 11.044328927993774 seconds
+Queries per second = 2737.992936829668
+Average recall over all queries = 0.022799999999999997
+
+Annoy configuration: n_trees = 500, search_k = 10000
+Time to build index: 11.044328927993774 seconds
+Queries per second = 588.0981158107567
+Average recall over all queries = 0.18439999999999995
+
+Annoy configuration: n_trees = 500, search_k = 50000
+Time to build index: 11.044328927993774 seconds
+Queries per second = 189.28637349713497
+Average recall over all queries = 0.6535
+
+Annoy configuration: n_trees = 500, search_k = 100000
+Time to build index: 11.044328927993774 seconds
+Queries per second = 105.59903724022291
+Average recall over all queries = 0.8791
+
+Annoy configuration: n_trees = 1000, search_k = 100
+Time to build index: 21.50624394416809 seconds
+Queries per second = 1275.62438413158
+Average recall over all queries = 0.0024
+
+Annoy configuration: n_trees = 1000, search_k = 1000
+Time to build index: 21.50624394416809 seconds
+Queries per second = 793.5791724216223
+Average recall over all queries = 0.020599999999999997
+
+Annoy configuration: n_trees = 1000, search_k = 10000
+Time to build index: 21.50624394416809 seconds
+Queries per second = 333.05757889295364
+Average recall over all queries = 0.19009999999999994
+
+Annoy configuration: n_trees = 1000, search_k = 50000
+Time to build index: 21.50624394416809 seconds
+Queries per second = 132.98132087106916
+Average recall over all queries = 0.6596999999999998
+
+Annoy configuration: n_trees = 1000, search_k = 100000
+Time to build index: 21.50624394416809 seconds
+Queries per second = 82.3562144884202
+Average recall over all queries = 0.88

@@ -1,0 +1,3 @@
+Model,Best Damping,Best Rank,Best regParam,Best MaxIter,Test Results - MAP@100,Test Results - NDCG@100
+Popularity,20,NA,NA,NA,0.0524,0.1073
+ALS,NA,30,0.01,20,0.0661,0.1621
